@@ -1,0 +1,78 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#wrapper{
+    width: 700px;
+    background-color: rgb(213, 210, 174);
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+#header{
+    width: 700px;
+    text-align: center;
+    padding: 10px 0;
+}
+#header img{
+    width: 100px;
+    height: 50px;
+    background-color: white;
+}
+#header h1{
+    display: inline-block;
+}
+#header p{
+    display: inline-block;
+}
+#main{
+    text-align: center;
+}
+
+#main img:nth-child(5n+2){
+    background-color: rgb(243, 104, 112);
+    padding: 10px;
+}#main img:nth-child(5n+4){
+    background-color: rgb(243, 104, 112);
+    padding: 10px;
+}
+
+#main img:nth-child(5n+1){
+    border: 8px solid rgb(130, 180, 238);
+}
+#main img:nth-child(5n+3){
+    border: 8px solid rgb(130, 180, 238);
+}
+#main img:nth-child(5n+5){
+    border: 8px solid rgb(130, 180, 238);
+}
+#main img{
+    width: 125px;
+    height: 125px;
+    outline: 3px solid black;
+    margin: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+List of things to do when building webpage
+
+1. Structure (HTML/CSS)
+2. Content (the stuff / fill in the structure)
+3. Size the content
+4. Styling (colors, effects, and fonts etc.)
+5. Space (where they are on the page)
+
+*/
