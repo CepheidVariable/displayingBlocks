@@ -1,3 +1,12 @@
+/* 
+Checklist Approach
+
+1. Structure (build the HTML/CSS skeleton)
+2. Content (the stuff / populate the structure)
+3. Sizing (size all teh stuff!)
+4. Styling (colors, effects, and fonts etc.)
+5. Space (layout/position on the page)
+*/
 *{
     padding: 0px;
     margin: 0px;
@@ -28,23 +37,12 @@
 #main{
     text-align: center;
 }
-
-#main img:nth-child(5n+2){
-    background-color: rgb(243, 104, 112);
-    padding: 10px;
-}#main img:nth-child(5n+4){
-    background-color: rgb(243, 104, 112);
-    padding: 10px;
+#main img:nth-child(odd){
+    border: 10px solid rgb(130, 180, 238);
 }
-
-#main img:nth-child(5n+1){
-    border: 8px solid rgb(130, 180, 238);
-}
-#main img:nth-child(5n+3){
-    border: 8px solid rgb(130, 180, 238);
-}
-#main img:nth-child(5n+5){
-    border: 8px solid rgb(130, 180, 238);
+#main img:nth-child(even){
+background-color: rgb(243, 104, 112);
+padding: 10px;
 }
 #main img{
     width: 125px;
@@ -52,27 +50,3 @@
     outline: 3px solid black;
     margin: 3px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-
-List of things to do when building webpage
-
-1. Structure (HTML/CSS)
-2. Content (the stuff / fill in the structure)
-3. Size the content
-4. Styling (colors, effects, and fonts etc.)
-5. Space (where they are on the page)
-
-*/
